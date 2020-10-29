@@ -1,0 +1,24 @@
+{
+  "name": "data-slab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss -o webroot/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o webroot/css"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moro-patana/data-slab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moro-patana/data-slab/issues"
+  },
+  "homepage": "https://github.com/moro-patana/data-slab#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
