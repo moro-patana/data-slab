@@ -1,0 +1,46 @@
+.masthead {
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    background-color: #ffff;
+}
+h2 {
+    color: #212353;
+    font-size: 80px;
+    font-weight: normal;
+}
+.learn_more {
+    background-color: #9C69E2
+}
+.learn_more a {
+    color: #ffff;
+}
+.info {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+@media (min-width: 1114px) {
+    .masthead {
+        text-align: start;
+        padding-top: 80px;
+        background-image: url("../img/image1.svg");
+        background-repeat: no-repeat;
+        background-position: top 120% right;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .masthead h2 {
+        width: 645px;
+        height: 184px;
+    }
+    .info {
+        width: 380px;
+        height: 120px;
+    }
+    
+}

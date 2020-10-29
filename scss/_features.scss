@@ -1,0 +1,123 @@
+.features {
+    padding: 1rem;
+}
+.features > header {
+    text-align: center;
+}
+.details {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.features h3 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    text-align: center;
+    color: #212353;
+}
+.features p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.features_details {
+    border-radius: 30px;
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    position: relative;
+    padding-left: 30%;
+  
+}
+.search_data {
+  background-color: rgba(104, 201, 186, 0.1);
+}
+.hours_access {
+  background-color: rgba(156, 105, 226, 0.1);
+}
+.print {
+  background-color: rgba(240, 99, 184, 0.1);
+}
+.code {
+  background-color: rgba(45, 156, 219, 0.1);
+}
+
+
+
+.code::before,
+.hours_access::before,
+.search_data::before,
+.print::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 25%;
+  left: -5rem;
+  background-size: contain;
+  width: 120px;
+  height: 130px;
+  padding-left: 4rem;
+  background-repeat: no-repeat;
+  background-position: 50% center;
+}
+
+.code::before {
+  background-image: url("../img/code.svg");
+}
+
+.print::before {
+  background-image: url("../img/print.svg");
+}
+.hours_access::before {
+  background-image: url("../img/hour-access.svg");
+}
+.search_data::before {
+  background-image: url("../img/search-dat.svg");
+}
+ 
+@media (min-width: 1114px) {
+  .features {
+    padding: 4rem;
+  }
+  .details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 200px;
+    row-gap: 70px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  /* .features {
+    max-width: 1114px;
+    margin: 0 auto;
+  }*/
+    .features_details {
+        border-radius: 30px;
+        width: 274px;
+        height: 320px;
+        margin-top: 20%;
+        text-align: left;
+        padding-left: 30%;
+        padding-right: 1rem;
+        margin: 0;
+    }
+    h4 {
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 130%;
+      color: #212353;
+    }
+    .features > p {
+      width: 220px;
+      height: 160px;
+    }
+}

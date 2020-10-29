@@ -1,0 +1,40 @@
+.post_components li {
+    list-style: none;
+}
+.address_intro {
+    padding: 1rem;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.about > li {
+    padding-top: 1rem;
+}
+.about a {
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+}
+.active {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+}
+
+.about_list,
+.help_list,
+.social_media_list {
+    padding-left: 0;
+    padding-top: 1rem;
+}
+.social_media_list {
+    display: flex;
+    flex-direction: row;
+}
+.social_media_list_item {
+    padding-right: 1rem;
+}

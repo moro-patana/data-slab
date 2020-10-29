@@ -1,0 +1,46 @@
+.storage_bank {
+    padding: 1rem;
+}
+.storage_bank .container {
+    padding: 1rem;
+    text-align: center;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+}
+.storage_bank h3 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+}
+.storage_bank p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+@media (min-width: 1114px) {
+   .storage_bank {
+       padding-left: 4rem;
+       padding-right: 4rem;
+   }
+   .storage_bank .container {
+    background-image: url("../img/image2.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 50%;
+    text-align: left;
+   }
+   .storage_bank h3 {
+       width: 475px;
+       height: 100px;
+   }
+   .storage_bank p {
+       width: 474px;
+       height: 170px;
+   }
+}
